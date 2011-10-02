@@ -1,0 +1,7 @@
+require File.join(File.dirname(__FILE__), %w[ .. spec_helper ])
+
+describe 'POST /login/jobs' do
+  it 'return status code 200' do
+    status_code.should == 200
+  end
+end

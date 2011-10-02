@@ -1,4 +1,5 @@
 ConnectAnotherHttp::Application.routes.draw do
+  post "karachi/api/login/jobs" => "login_jobs#login_jobs"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
